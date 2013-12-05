@@ -3,7 +3,7 @@
 	<name>APC Tools</name>
 	<author>Juho Jaakkola</author>
 	<version>1.0</version>
-	<description>Tools for APC optcode cache</description>
+	<description>Tools for APC opcode cache</description>
 	<copyright>(C) Juho Jaakkola 2013</copyright>
 	<license>GNU General Public License version 2</license>
 	<requires>
