@@ -10,6 +10,8 @@ function apc_tools_init() {
 	elgg_register_action('admin/apc/flush', $actions_path, 'admin');
 
 	elgg_register_plugin_hook_handler('register', 'menu:admin_control_panel', 'apc_tools_admin_panel_setup');
+
+	elgg_register_admin_menu_item('administer', 'apc', 'statistics');
 }
 
 /**
